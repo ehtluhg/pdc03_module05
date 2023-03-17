@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pdc03_module05.activity01">
+    <ContentPage.Content>
+        <StackLayout Margin="20,2,0,2"
+                     Padding="25,5,5,5"
+                     BackgroundColor="Aqua">
+            
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Entry Placeholder="Username"></Entry>
+
+            <Label Text="Yellow"
+                   HorizontalOptions="Start"
+                   BackgroundColor="Yellow" />
+
+            <Label Text="Green"
+                   HorizontalOptions="Center"
+                   BackgroundColor="Green" />
+
+            <Label Text="Blue"
+                   HorizontalOptions="End"
+                   BackgroundColor="Blue" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

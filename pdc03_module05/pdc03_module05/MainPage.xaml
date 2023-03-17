@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pdc03_module05.MainPage">
+
+    <StackLayout>
+        <Button Text="Activity01-StackLayout" Clicked="Activity01" />
+        <Button Text="Activity02-GridLayout" Clicked="Activity02" />
+        <Button Text="Activity03-AbsoluteLayout" Clicked="Activity03" />
+        <Button Text="Activity04-RelativeLayout" Clicked="Activity04" />
+    </StackLayout>
+
+</ContentPage>
